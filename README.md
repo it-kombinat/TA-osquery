@@ -5,11 +5,9 @@ TA-osquery
 
 A Splunk technology add-on for osquery
 
-*Join the conversation at* [![Slack Status](https://img.shields.io/badge/slack-@splunk/security-yellow.svg?logo=slack)](https://splunk-usergroups.slack.com/signup)
-
 | branch | build status |
 | ---    | ---          |
-| master | [![master status](https://circleci.com/gh/splunk/TA-osquery/tree/master.svg?style=svg)](https://circleci.com/gh/splunk/TA-osquery/tree/master)
+| master | [![master status](https://circleci.com/gh/it-kombinat/TA-osquery/tree/master.svg?style=svg)](https://circleci.com/gh/it-kombinat/TA-osquery/tree/master)
 
 - Original Author: Jose Hernandez
 - Current maintainers:
