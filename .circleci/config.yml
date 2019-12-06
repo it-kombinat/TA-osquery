@@ -24,7 +24,7 @@ executors:
     working_directory: ~/repo
 
 jobs:
-  validate-content:
+  validate-app:
     executor: content-executor
     steps:
       - run:
@@ -88,13 +88,13 @@ workflows:
   version: 2.1
   validate-and-build:
     jobs:
-      - validate-content:
+      - validate-app:
           filters:
             tags:
               only: /.*/
       - publish-github-release:
           requires:
-            - validate-content
+            - validate-app
           filters:
             tags:
               only: /^v.*/
